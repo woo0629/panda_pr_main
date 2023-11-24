@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.detail{
+    min-width: 850px;
+    position: relative;
+    width: 730px;
+    margin: 0 auto;
+}
+.detail-content{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+  }
+
+.miniCategory{
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.46;
+    letter-spacing: -0.6px;
+    color: #868e96;
+}

@@ -1,0 +1,52 @@
+/* popularItem.css */
+
+/* 전체 컨테이너 스타일 */
+.popular-header {
+    margin: 20px;
+    text-align: center;
+}
+
+.popular-card{
+    display: flex;
+}
+.popular-container {
+    display: flex;
+    justify-content: center; 
+    /* flex-wrap: wrap; */
+}
+
+/* popular 컨텐츠 스타일 */
+.popular {
+    text-align: center;
+    width: 210px;
+    box-sizing: border-box; /* border와 padding을 포함한 크기 계산 */
+    cursor: pointer;
+ 
+}
+.popular img {
+    max-width: 70%; 
+    height: auto; 
+}
+
+.popularCard-title {
+    margin-top: 8px; 
+    font-size: 15px; 
+}
+.popular p {
+    font-size: 13px; 
+}
+
+
+@media (max-width: 768px) {
+    .popular {
+        width: 80%;
+        text-align: center;
+        margin: 0 0 20px 0; 
+    }
+    .popular-card{
+        width: 60%;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+}

@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; 혹은 필요에 따라 적절한 높이 설정 */
+}
+
+#logo {
+  margin-bottom: 20px; /* 로고와 내용 간격 조정 */
+}
+
+#footer2 {
+  display: flex;
+  gap: 20px; /* 내부 Nav.Link 요소들 간격 조정 */
+}

@@ -1,0 +1,15 @@
+.carousel-container{
+    display: flex;
+    justify-content: center;
+}
+.phrase{
+    text-align: center;
+}
+.phrase img{
+    width: 80%;
+}
+@media only screen and (max-width: 767px) {
+    .phrase{
+        margin-top: 80px;
+    }
+}
